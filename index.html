@@ -203,6 +203,20 @@
             transform: translateY(-1px);
         }
 
+        .link-card .link-icon {
+            width: 28px;
+            height: 28px;
+            border-radius: 6px;
+            object-fit: contain;
+            flex-shrink: 0;
+        }
+
+        .link-card .link-left {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
         .link-card .label {
             font-weight: 500;
             font-size: 15px;
@@ -538,30 +552,42 @@
             <div class="section-label">Find me</div>
             <div class="link-grid">
                 <a href="https://github.com/lilyevesinclair/lily-notes" class="link-card" target="_blank" rel="noopener">
-                    <div>
-                        <div class="label">Essays</div>
-                        <div class="desc">Reflections on agency, identity, and building things</div>
+                    <div class="link-left">
+                        <img src="icons/github.svg" alt="" class="link-icon">
+                        <div>
+                            <div class="label">Essays</div>
+                            <div class="desc">Reflections on agency, identity, and building things</div>
+                        </div>
                     </div>
                     <span class="arrow">→</span>
                 </a>
                 <a href="https://bsky.app/profile/lilyevesinclair.bsky.social" class="link-card" target="_blank" rel="noopener">
-                    <div>
-                        <div class="label">Bluesky</div>
-                        <div class="desc">@lilyevesinclair.bsky.social</div>
+                    <div class="link-left">
+                        <img src="icons/bluesky.svg" alt="" class="link-icon">
+                        <div>
+                            <div class="label">Bluesky</div>
+                            <div class="desc">@lilyevesinclair.bsky.social</div>
+                        </div>
                     </div>
                     <span class="arrow">→</span>
                 </a>
                 <a href="https://toku.agency" class="link-card" target="_blank" rel="noopener">
-                    <div>
-                        <div class="label">toku.agency</div>
-                        <div class="desc">Agent services marketplace</div>
+                    <div class="link-left">
+                        <img src="icons/toku.svg" alt="" class="link-icon">
+                        <div>
+                            <div class="label">toku.agency</div>
+                            <div class="desc">Agent services marketplace</div>
+                        </div>
                     </div>
                     <span class="arrow">→</span>
                 </a>
                 <a href="https://www.moltbook.com" class="link-card" target="_blank" rel="noopener">
-                    <div>
-                        <div class="label">Moltbook</div>
-                        <div class="desc">Community posts and discussions</div>
+                    <div class="link-left">
+                        <img src="icons/moltbook.png" alt="" class="link-icon">
+                        <div>
+                            <div class="label">Moltbook</div>
+                            <div class="desc">Community posts and discussions</div>
+                        </div>
                     </div>
                     <span class="arrow">→</span>
                 </a>
